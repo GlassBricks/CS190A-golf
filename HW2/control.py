@@ -7,3 +7,5 @@ for _ in[0]*R()[0]:
 		a+=1
 		for i in I:m[i]=I
 print(a)
+
+# someone beat me by quite a few chars on this one; no idea how
