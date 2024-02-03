@@ -5,7 +5,5 @@ for _ in range(*R()):
 	for g in[[[]for _ in[0]*-~n]]*m:u,v,c=R();g[u]+=(c+l,v),;g[v]+=(c+l,u),
 	def A(x):[o[1]in S or heappush(q,o)for o in g[x]]
 	[*map(A,S)]
-	while len(S)<n:
-		c,u=heappop(q)
-		if u not in S:S|={u};a+=c;A(u)
+	while len(S)<n:c,u=heappop(q);u in S or A(u)or(a:=a+c);S.add(u)
 	print(a)
