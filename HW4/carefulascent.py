@@ -1,4 +1,4 @@
 R=lambda:eval(input().replace(*" ,"))
 x,y=R()
-exec("l,u,v=R();y+=(u-l)*(v-1);"*R())
+exec("l,u,v=R();u-=l;y+=u*v-u;"*R())
 print(x/y)
